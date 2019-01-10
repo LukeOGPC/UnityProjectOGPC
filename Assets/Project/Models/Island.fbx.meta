@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: 19e3e51120e4a354785024812264dbcb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Desert
+    100002: Desert_Cliff
+    100004: Grassland
+    100006: Iceland
+    100008: //RootNode
+    100010: Lake
+    100012: Landscape.003
+    100014: n35b12
+    100016: n35b13
+    100018: Oasis
+    100020: pDisc1
+    100022: pDisc2
+    100024: pDisc3
+    100026: polySurface1
+    100028: polySurface2
+    100030: polySurface3
+    100032: polySurface5
+    100034: polySurface6
+    100036: polySurface7
+    100038: polySurface8
+    100040: transform1
+    100042: transform10
+    100044: transform11
+    100046: transform12
+    100048: transform2
+    100050: transform3
+    100052: transform4
+    100054: transform5
+    100056: transform6
+    100058: transform7
+    100060: transform8
+    100062: transform9
+    400000: Desert
+    400002: Desert_Cliff
+    400004: Grassland
+    400006: Iceland
+    400008: //RootNode
+    400010: Lake
+    400012: Landscape.003
+    400014: n35b12
+    400016: n35b13
+    400018: Oasis
+    400020: pDisc1
+    400022: pDisc2
+    400024: pDisc3
+    400026: polySurface1
+    400028: polySurface2
+    400030: polySurface3
+    400032: polySurface5
+    400034: polySurface6
+    400036: polySurface7
+    400038: polySurface8
+    400040: transform1
+    400042: transform10
+    400044: transform11
+    400046: transform12
+    400048: transform2
+    400050: transform3
+    400052: transform4
+    400054: transform5
+    400056: transform6
+    400058: transform7
+    400060: transform8
+    400062: transform9
+    2100000: Water
+    2100002: IslandMap
+    2100004: Lava
+    2100006: lambert1
+    2300000: Lake
+    2300002: Oasis
+    2300004: pDisc1
+    2300006: pDisc3
+    2300008: polySurface6
+    2300010: polySurface7
+    2300012: polySurface8
+    3300000: Lake
+    3300002: Oasis
+    3300004: pDisc1
+    3300006: pDisc3
+    3300008: polySurface6
+    3300010: polySurface7
+    3300012: polySurface8
+    4300000: Lake
+    4300002: Oasis
+    4300004: polySurface6
+    4300006: pDisc1
+    4300008: pDisc3
+    4300010: polySurface7
+    4300012: polySurface8
+    6400000: Lake
+    6400002: Oasis
+    6400004: pDisc1
+    6400006: pDisc3
+    6400008: polySurface6
+    6400010: polySurface7
+    6400012: polySurface8
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
