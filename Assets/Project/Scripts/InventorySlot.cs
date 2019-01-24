@@ -31,8 +31,28 @@ public class InventorySlot : MonoBehaviour, IPointerClickHandler
 	public Vector2 size;
 
 	public bool clickable;
+    public bool box1;
+    public bool box2;
+    public bool box3;
+    public bool box4;
+    public bool box5;
+    public bool box6;
+    public bool box7;
+    public bool box8;
+    public bool box9;
+    public bool box10;
+    public bool box11;
+    public bool box12;
+    public bool box13;
+    public bool box14;
+    public Collider box1c;
+    public Collider box2c;
+    public Collider box3c;
+    public Collider box4c;
+    public Collider box5c;
 
-	public GameObject UITile;
+    box1c = GetComponent<box1>();
+    public GameObject UITile;
 	private GameObject background;
 
 	private Vector3 inventorySlotPosition;
@@ -71,11 +91,15 @@ public class InventorySlot : MonoBehaviour, IPointerClickHandler
 		
 		if(held)
 		{
-			Drop();
+		
 			inventorySlotPosition = new Vector3(transform.localPosition.x/* + x + x + x / 4*/, transform.localPosition.y/* + y + y + y / 4*/, 0);
 		}
-
+        TakenS();
+        if (clickable)
+        { 
 		held = !held;
+        TakeS();
+         }
 	}
 
 	public void UpdateSlot()
@@ -84,25 +108,46 @@ public class InventorySlot : MonoBehaviour, IPointerClickHandler
 		this.GetComponent<RectTransform>().localScale = new Vector3((size.x * 50) + (10 * (size.x - 1)), (size.y * 50) + (10 * (size.y - 1)), 0);
 	} 
 
-	public void Drop()
+	public void TakenS()
 	{
-		/*background = Instantiate(UITile);
-		background.transform.position = this.GetComponent<RectTransform>().localPosition;
-		background.transform.localScale = this.GetComponent<RectTransform>().localScale;
-		background.transform.parent = this.transform;
+        if ((box1 == false) )
+        {
+            clickable = false;
+        }
+        else if ((box2 == false))
+        {
+            clickable = false;
+        }
+        else if ((box3 == false))
+        {
+            clickable = false;
+        }
+        else
+        {
+            clickable = true;
 
-		Collider[] c = Physics.OverlapBox(transform.position, transform.localScale / 2, transform.rotation);
-		Debug.Log(c.Length);
-
-		for(int i = 0; i < c.Length; i++)
-		{
-			Debug.Log(c.GetValue(i));
-		}*/
+        }
 	}
-
-	void OnDrawGizmos()
+    public void TakeS()
+    {
+        if ((box1c))
+        {
+            box1 = false;
+        }
+    }
+    void OnDrawGizmos()
 	{
 		Gizmos.color = Color.red;
 		Gizmos.DrawWireCube(transform.position, transform.localScale);
 	}
 }
+
+
+
+
+
+
+
+
+
+
