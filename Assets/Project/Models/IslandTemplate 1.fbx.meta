@@ -1,0 +1,334 @@
+fileFormatVersion: 2
+guid: 409cef38488705a489c7b5268a3f194e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Desert
+    100002: Desert_Cliff
+    100004: Grassland
+    100006: group1
+    100008: group14
+    100010: group15
+    100012: group16
+    100014: group17
+    100016: group18
+    100018: group19
+    100020: group2
+    100022: group21
+    100024: group3
+    100026: group4
+    100028: group5
+    100030: IceCavesRNfosterParent1
+    100032: Iceland
+    100034: //RootNode
+    100036: Landscape.003
+    100038: n35b12
+    100040: n35b13
+    100042: pCylinder34
+    100044: pCylinder35
+    100046: pCylinder36
+    100048: pDisc2
+    100050: pDisc3
+    100052: polySurface1
+    100054: polySurface10
+    100056: polySurface11
+    100058: polySurface11 1
+    100060: polySurface12
+    100062: polySurface14
+    100064: polySurface15
+    100066: polySurface16
+    100068: polySurface17
+    100070: polySurface18
+    100072: polySurface19
+    100074: polySurface2
+    100076: polySurface20
+    100078: polySurface21
+    100080: polySurface22
+    100082: polySurface23
+    100084: polySurface24
+    100086: polySurface25
+    100088: polySurface3
+    100090: polySurface4
+    100092: polySurface5
+    100094: polySurface6
+    100096: polySurface7
+    100098: polySurface8
+    100100: polySurface9
+    100102: polySurface9 1
+    100104: pPlane1
+    100106: transform1
+    100108: transform10
+    100110: transform11
+    100112: transform12
+    100114: transform13
+    100116: transform14
+    100118: transform15
+    100120: transform16
+    100122: transform17
+    100124: transform18
+    100126: transform19
+    100128: transform2
+    100130: transform20
+    100132: transform21
+    100134: transform22
+    100136: transform23
+    100138: transform24
+    100140: transform25
+    100142: transform26
+    100144: transform27
+    100146: transform28
+    100148: transform3
+    100150: transform4
+    100152: transform5
+    100154: transform6
+    100156: transform7
+    100158: transform8
+    100160: transform9
+    400000: Desert
+    400002: Desert_Cliff
+    400004: Grassland
+    400006: group1
+    400008: group14
+    400010: group15
+    400012: group16
+    400014: group17
+    400016: group18
+    400018: group19
+    400020: group2
+    400022: group21
+    400024: group3
+    400026: group4
+    400028: group5
+    400030: IceCavesRNfosterParent1
+    400032: Iceland
+    400034: //RootNode
+    400036: Landscape.003
+    400038: n35b12
+    400040: n35b13
+    400042: pCylinder34
+    400044: pCylinder35
+    400046: pCylinder36
+    400048: pDisc2
+    400050: pDisc3
+    400052: polySurface1
+    400054: polySurface10
+    400056: polySurface11
+    400058: polySurface11 1
+    400060: polySurface12
+    400062: polySurface14
+    400064: polySurface15
+    400066: polySurface16
+    400068: polySurface17
+    400070: polySurface18
+    400072: polySurface19
+    400074: polySurface2
+    400076: polySurface20
+    400078: polySurface21
+    400080: polySurface22
+    400082: polySurface23
+    400084: polySurface24
+    400086: polySurface25
+    400088: polySurface3
+    400090: polySurface4
+    400092: polySurface5
+    400094: polySurface6
+    400096: polySurface7
+    400098: polySurface8
+    400100: polySurface9
+    400102: polySurface9 1
+    400104: pPlane1
+    400106: transform1
+    400108: transform10
+    400110: transform11
+    400112: transform12
+    400114: transform13
+    400116: transform14
+    400118: transform15
+    400120: transform16
+    400122: transform17
+    400124: transform18
+    400126: transform19
+    400128: transform2
+    400130: transform20
+    400132: transform21
+    400134: transform22
+    400136: transform23
+    400138: transform24
+    400140: transform25
+    400142: transform26
+    400144: transform27
+    400146: transform28
+    400148: transform3
+    400150: transform4
+    400152: transform5
+    400154: transform6
+    400156: transform7
+    400158: transform8
+    400160: transform9
+    2100000: Ice
+    2100002: lambert1
+    2100004: Snow
+    2100006: CliffWall
+    2100008: Lava
+    2100010: Desert1
+    2100012: Grass
+    2100014: Water
+    2300000: polySurface16
+    2300002: polySurface18
+    2300004: polySurface20
+    2300006: polySurface22
+    2300008: polySurface23
+    2300010: polySurface24
+    2300012: polySurface25
+    2300014: polySurface7
+    2300016: pPlane1
+    3300000: polySurface16
+    3300002: polySurface18
+    3300004: polySurface20
+    3300006: polySurface22
+    3300008: polySurface23
+    3300010: polySurface24
+    3300012: polySurface25
+    3300014: polySurface7
+    3300016: pPlane1
+    4300000: polySurface7
+    4300002: polySurface24
+    4300004: polySurface25
+    4300006: polySurface22
+    4300008: polySurface23
+    4300010: polySurface20
+    4300012: polySurface18
+    4300014: polySurface16
+    4300016: pPlane1
+    6400000: polySurface16
+    6400002: polySurface18
+    6400004: polySurface20
+    6400006: polySurface22
+    6400008: polySurface23
+    6400010: polySurface24
+    6400012: polySurface25
+    6400014: polySurface7
+    6400016: pPlane1
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CliffWall
+    second: {fileID: 2100000, guid: 2050b3955f901fb4eafc06fcf46bbb2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Desert1
+    second: {fileID: 2100000, guid: c6a7ead6624cfd347bec2a3ba83b07db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass
+    second: {fileID: 2100000, guid: 273d61722040a1b48a9bb77d573bf977, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ice
+    second: {fileID: 2100000, guid: 5dc377867d580804190612b965f0163e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lava
+    second: {fileID: 2100000, guid: 4cb7f4789d0e3c64284bfab876c8fc1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Snow
+    second: {fileID: 2100000, guid: 5cf05e46e2dcd874080fc09e7b627ead, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Water
+    second: {fileID: 2100000, guid: 3b46547a0db80dc41b96afe07dbf8517, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: a63755fb78fc79a4bb39816e0d7b51f3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
