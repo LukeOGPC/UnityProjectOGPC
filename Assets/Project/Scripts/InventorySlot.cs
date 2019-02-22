@@ -23,7 +23,7 @@ public class InventorySlot : MonoBehaviour, IPointerClickHandler
     public Vector2 size;
     private bool clickable;
     private bool box1Coll;
-    private bool ntaken;
+    public bool ntakenupdat;
     public GameObject UITile;
     private GameObject background;
     private Vector3 inventorySlotPosition;
@@ -64,7 +64,7 @@ public class InventorySlot : MonoBehaviour, IPointerClickHandler
                 inventorySlotPosition = new Vector3(transform.localPosition.x/* + x + x + x / 4*/, transform.localPosition.y/* + y + y + y / 4*/, 0);
             }
             held = !held;
-            ntaken = !ntaken;
+            ntakenupdat = !ntakenupdat;
         }
     }
     public void UpdateSlot()
@@ -90,20 +90,5 @@ public class InventorySlot : MonoBehaviour, IPointerClickHandler
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(transform.position, transform.localScale);
     }
-    void OnTriggerStay2D(Collider2D other)
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            if (ntaken == false)
-            {
-                clickable = !clickable;
-            }
-            else
-            {
-                clickable = true;
-            }
-            Debug.Log("Triggered");
-        }
-    }
-
+   
 }
